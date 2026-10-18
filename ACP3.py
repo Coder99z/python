@@ -1,0 +1,11 @@
+a=input ("enter your name: ")
+b=input ("what did you acheive in your life: ")
+c= "congratulations " + a + " for achieving " + b
+print(c)
+print("congratulations " , a , " for achieving " , b)
+print(c.upper())
+print(a.upper())
+print(b.lower())
+print("the length of your name is ", len(a))
+print("the length of your achievement is ", len(b))
+print("the length of your name and achievement is ", len(a)+len(b))
